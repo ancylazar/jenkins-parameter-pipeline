@@ -11,7 +11,7 @@ pipeline {
 
         stage('Generate Report') {
             steps {
-                bat 'C:\Users\ANCY LAZAR\AppData\Local\Microsoft\WindowsApps\python.exe'
+                bat '"C:\\Users\\ANCY LAZAR\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" app.py'
             }
         }
 
